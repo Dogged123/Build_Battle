@@ -1,0 +1,13 @@
+name: BuildBattle
+version: '${project.version}'
+main: me.isaacfediw.buildbattle.BuildBattle
+api-version: 1.19
+description: Build Battle plugin
+commands:
+  wand:
+    description: gives you an arena wand
+    usage: /<command>
+  buildbattle:
+    description: used for all build battle commands
+    usage: /<command>
+    aliases: [bb]
